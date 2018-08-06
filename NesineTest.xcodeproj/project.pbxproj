@@ -15,6 +15,12 @@
 		8FC1E8732114941A00D38D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8722114941A00D38D41 /* main.m */; };
 		8FC1E87D2114941A00D38D41 /* NesineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E87C2114941A00D38D41 /* NesineTestTests.m */; };
 		8FC1E8882114941A00D38D41 /* NesineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8872114941A00D38D41 /* NesineTestUITests.m */; };
+		8FC1E8972114958500D38D41 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8962114958500D38D41 /* AddViewController.m */; };
+		8FC1E89A21150BD400D38D41 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E89921150BD400D38D41 /* DetailViewController.m */; };
+		8FC1E89E2115DB5C00D38D41 /* ControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E89D2115DB5C00D38D41 /* ControllerModel.m */; };
+		8FC1E8AA2115F5A500D38D41 /* ListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8A82115F5A500D38D41 /* ListModel.xcdatamodeld */; };
+		8FC1E8B421184FA000D38D41 /* NSMutableArray+Convertable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8B321184FA000D38D41 /* NSMutableArray+Convertable.m */; };
+		8FC1E8B72118586E00D38D41 /* NSArray+Convertable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1E8B62118586E00D38D41 /* NSArray+Convertable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		8FC1E8832114941A00D38D41 /* NesineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NesineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC1E8872114941A00D38D41 /* NesineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NesineTestUITests.m; sourceTree = "<group>"; };
 		8FC1E8892114941A00D38D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC1E8952114958500D38D41 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		8FC1E8962114958500D38D41 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		8FC1E89821150BD400D38D41 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8FC1E89921150BD400D38D41 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8FC1E89C2115DB5C00D38D41 /* ControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllerModel.h; sourceTree = "<group>"; };
+		8FC1E89D2115DB5C00D38D41 /* ControllerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllerModel.m; sourceTree = "<group>"; };
+		8FC1E8A92115F5A500D38D41 /* ListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListModel.xcdatamodel; sourceTree = "<group>"; };
+		8FC1E8B221184FA000D38D41 /* NSMutableArray+Convertable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Convertable.h"; sourceTree = "<group>"; };
+		8FC1E8B321184FA000D38D41 /* NSMutableArray+Convertable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Convertable.m"; sourceTree = "<group>"; };
+		8FC1E8B52118586E00D38D41 /* NSArray+Convertable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Convertable.h"; sourceTree = "<group>"; };
+		8FC1E8B62118586E00D38D41 /* NSArray+Convertable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Convertable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +118,25 @@
 		8FC1E8622114941800D38D41 /* NesineTest */ = {
 			isa = PBXGroup;
 			children = (
+				8FC1E89B2115DB4500D38D41 /* model */,
 				8FC1E8632114941800D38D41 /* AppDelegate.h */,
 				8FC1E8642114941800D38D41 /* AppDelegate.m */,
 				8FC1E8662114941800D38D41 /* ViewController.h */,
 				8FC1E8672114941800D38D41 /* ViewController.m */,
+				8FC1E8952114958500D38D41 /* AddViewController.h */,
+				8FC1E8962114958500D38D41 /* AddViewController.m */,
+				8FC1E89821150BD400D38D41 /* DetailViewController.h */,
+				8FC1E89921150BD400D38D41 /* DetailViewController.m */,
+				8FC1E8B221184FA000D38D41 /* NSMutableArray+Convertable.h */,
+				8FC1E8B321184FA000D38D41 /* NSMutableArray+Convertable.m */,
+				8FC1E8B52118586E00D38D41 /* NSArray+Convertable.h */,
+				8FC1E8B62118586E00D38D41 /* NSArray+Convertable.m */,
 				8FC1E8692114941800D38D41 /* Main.storyboard */,
 				8FC1E86C2114941A00D38D41 /* Assets.xcassets */,
 				8FC1E86E2114941A00D38D41 /* LaunchScreen.storyboard */,
 				8FC1E8712114941A00D38D41 /* Info.plist */,
 				8FC1E8722114941A00D38D41 /* main.m */,
+				8FC1E8A82115F5A500D38D41 /* ListModel.xcdatamodeld */,
 			);
 			path = NesineTest;
 			sourceTree = "<group>";
@@ -130,6 +157,15 @@
 				8FC1E8892114941A00D38D41 /* Info.plist */,
 			);
 			path = NesineTestUITests;
+			sourceTree = "<group>";
+		};
+		8FC1E89B2115DB4500D38D41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1E89C2115DB5C00D38D41 /* ControllerModel.h */,
+				8FC1E89D2115DB5C00D38D41 /* ControllerModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +235,7 @@
 				TargetAttributes = {
 					8FC1E85F2114941800D38D41 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					8FC1E8772114941A00D38D41 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -262,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC1E89A21150BD400D38D41 /* DetailViewController.m in Sources */,
 				8FC1E8682114941800D38D41 /* ViewController.m in Sources */,
+				8FC1E8B72118586E00D38D41 /* NSArray+Convertable.m in Sources */,
+				8FC1E8AA2115F5A500D38D41 /* ListModel.xcdatamodeld in Sources */,
 				8FC1E8732114941A00D38D41 /* main.m in Sources */,
+				8FC1E89E2115DB5C00D38D41 /* ControllerModel.m in Sources */,
+				8FC1E8B421184FA000D38D41 /* NSMutableArray+Convertable.m in Sources */,
+				8FC1E8972114958500D38D41 /* AddViewController.m in Sources */,
 				8FC1E8652114941800D38D41 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DWF3AN75M6;
 				INFOPLIST_FILE = NesineTest/Info.plist;
@@ -442,6 +486,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kogo.NesineTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DWF3AN75M6;
 				INFOPLIST_FILE = NesineTest/Info.plist;
@@ -459,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kogo.NesineTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -577,6 +625,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FC1E8A82115F5A500D38D41 /* ListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FC1E8A92115F5A500D38D41 /* ListModel.xcdatamodel */,
+			);
+			currentVersion = 8FC1E8A92115F5A500D38D41 /* ListModel.xcdatamodel */;
+			path = ListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8FC1E8582114941800D38D41 /* Project object */;
 }
